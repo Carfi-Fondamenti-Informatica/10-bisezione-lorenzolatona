@@ -2,7 +2,6 @@
 #include <cmath>
 using namespace std;
 
-
 float f(float y){
     return (y*y)*cos(y)+1;
 }
@@ -29,5 +28,5 @@ int main() {
     }
     cout<<(a+b)/2<<endl;
 }
-   return 0;
-}
+
+
