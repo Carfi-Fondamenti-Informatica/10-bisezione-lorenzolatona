@@ -10,7 +10,7 @@ int main() {
     float b=0;
     cout<<"Inserire estremo"<<endl;
     cin>>a>>b;
-    while((a-b)/2>0.0001){
+    while((f(a)-f(b))/2>0.0001){
         float m=(a+b)/2;
         if(f(m)==0){
             a=m;
@@ -25,5 +25,6 @@ int main() {
             }
         }
     }
-    cout<<(a+b)/2<<endl;
+    cout<<(f(a)+f(b))/2<<endl;
 }
+
